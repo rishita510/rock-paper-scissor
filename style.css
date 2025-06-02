@@ -1,0 +1,87 @@
+ body{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 215, 215);
+    color:black;
+     
+ }
+
+.body{
+    min-height:70vh;
+    min-width: 45vw;
+    background-color: white;
+    margin: 6rem;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+.symbol{
+    height:9rem;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+    background-color: blueviolet;
+    
+   
+}
+.rock,.scissor,.paper{
+    height:6rem;
+    width:6rem;
+    border-radius: 50%;
+    margin:20px;
+    font-size: 2rem;
+
+}
+.rock img,.scissor img,.paper img{
+    height:5rem;
+    width:5rem;
+    border-radius: 50%;
+
+}
+.paper img:hover{
+    transform: scale(1.2); /* Increase size to 120% */
+    transition: transform 0.3s ease;
+}
+.rock img:hover{
+    transform: scale(1.2); /* Increase size to 120% */
+    transition: transform 0.3s ease;
+}
+.scissor img:hover{
+    transform: scale(1.2); /* Increase size to 120% */
+    transition: transform 0.3s ease;
+}
+.score{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+.player{
+margin-right:30px;
+font-size: 2rem;
+}
+.computer{
+    margin-left: 20px;
+    font-size: 2rem;
+}
+.restart{
+    margin-top: 2.5rem;
+    height:2.5rem;
+    width:4rem;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+.decision{
+    margin-top: 2rem;
+    height:3.5rem;
+    color:black;
+    font-size:2rem;
+
+
+}
+.hide{
+    display: none;
+}
